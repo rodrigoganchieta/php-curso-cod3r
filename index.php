@@ -28,8 +28,8 @@ if(!$_SESSION['usuario']) {
 
 	<title>PHP 7 Completo - Rodrigo Gonçalves de Anchieta</title>
 
-	<meta name="description" content="PHP 7 Completo - Curso do Desenvolvedor Web + Projetos criado pela COD3R e Rodrigo Gonçalves de Anchieta">
-	<meta name="abstract" content="PHP 7 Completo - Curso do Desenvolvedor Web + Projetos criado pela COD3R e Rodrigo Gonçalves de Anchieta">
+	<meta name="description" content="PHP 7 Completo - Curso do Desenvolvedor Web + Projetos criado pela COD3R, aluno Rodrigo Gonçalves de Anchieta">
+	<meta name="abstract" content="PHP 7 Completo - Curso do Desenvolvedor Web + Projetos criado pela COD3R, aluno Rodrigo Gonçalves de Anchieta">
 	<meta name="keywords" content="PHP 7 Completo, desenvolvedor back-end, Rodrigo Anchieta, rodrigoganchieta, Rodrigo Gonçalves de Anchieta">
 
   <link rel="shortcut icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg">
