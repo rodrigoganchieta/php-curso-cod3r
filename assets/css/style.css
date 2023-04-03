@@ -72,6 +72,10 @@ body {
   color: #0968c4;
 }
 
+.rodape a:hover{
+  color: #e82e2f;
+}
+
 .rodape a img{
   width: 18px;
 }
