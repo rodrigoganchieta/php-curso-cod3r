@@ -1,4 +1,4 @@
-# PHP - Curso - Cod3r
+# Curso - PHP - Cod3r
 
 Projeto desenvolvido no curso de PHP 7 Completo - Curso do Desenvolvedor Web + Projetos
 
