@@ -1,4 +1,4 @@
-<div class="titulo">Desafio Equação</div>
+<div class="titulo">Equation Task</div>
 
 <?php
 
@@ -15,4 +15,4 @@ $superior = ($superiorA - $superiorB) ** 3;
 $inferior = 10 ** 3;
 
 $final = $superior / $inferior;
-echo "O resultado final é " . $final . ".";
+echo "The end result is " . $final . ".";

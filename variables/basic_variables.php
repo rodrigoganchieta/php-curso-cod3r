@@ -1,4 +1,4 @@
-<div class="titulo">Variáveis</div>
+<div class="titulo">Variables</div>
 
 <?php
 $numeroA = 13;
@@ -21,15 +21,15 @@ var_dump($somaDosNumeros);
 $variavel = 10;
 echo '<br>' . $variavel;
 
-$variavel = "Agora sou uma string!";
+$variavel = "Now I'm a string!";
 echo '<br>' . $variavel;
 
 // Nomes de variável
-$var = 'valida';
-$var2 = 'valida';
-$VAR3 = 'valida';
-$_var_4 = 'valida';
-$vâr5 = 'valida'; // evitar!
+$var = 'valid';
+$var2 = 'valid';
+$VAR3 = 'valid';
+$_var_4 = 'valid';
+$vâr5 = 'valid'; // evitar!
 // $6var = 'invalida';
 // $%var7 = 'invalida';
 // $var8% = 'invalida';

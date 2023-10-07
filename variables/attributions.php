@@ -1,7 +1,7 @@
-<div class="titulo">Atribuições</div>
+<div class="titulo">Attributions</div>
 
 <?php
-$title = 'Atribuições';
+$title = 'Attributions';
 
 $numero = 10;
 echo '<br>' . $numero;
@@ -31,13 +31,13 @@ echo '<br>' . $numero;
 $numero .= 4;
 echo '<br>' . $numero;
 
-$texto = 'Esse é um texto';
+$texto = 'This is a text';
 echo '<br>' . $texto;
-$texto = $texto . ' qualquer';
+$texto = $texto . ' any';
 echo '<br>' . $texto;
-$texto .= ' de verdade!';
+$texto .= ' in truth!';
 echo '<br>' . $texto;
 
 echo '<br>' . $variavelInexistente;
-$valor = $variavelInexistente ?? 'valor default';
+$valor = $variavelInexistente ?? 'default value';
 echo '<br>' . $valor;

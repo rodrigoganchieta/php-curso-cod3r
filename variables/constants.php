@@ -1,4 +1,4 @@
-<div class="titulo">Constantes</div>
+<div class="titulo">Constants</div>
 
 <?php
 define('TAXA_DE_JUROS', 5.9);
@@ -17,6 +17,6 @@ echo '<br>' . NOVISSIMA_TAXA;
 echo '<br>' . PHP_VERSION;
 echo '<br>' . PHP_INT_MAX;
 
-echo '<br> Linha: ' . __LINE__;
+echo '<br> Line: ' . __LINE__;
 echo '<br>' . __FILE__;
 echo '<br>' . __DIR__;
