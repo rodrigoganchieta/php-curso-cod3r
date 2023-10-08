@@ -36,16 +36,16 @@
     </ul>
   </div>
   <div class="modulo roxo">
-    <h3>4. Controle</h3>
+    <h3>4. Control</h3>
     <ul>
-      <li><a href="exercise.php?dir=controle&file=if_else">If Else</a></li>
-      <li><a href="exercise.php?dir=controle&file=operadores_relacionais">Op. Relacionais</a></li>
-      <li><a href="exercise.php?dir=controle&file=desafio_pi">Desafio PI</a></li>
-      <li><a href="exercise.php?dir=controle&file=operadores_logicos">Operadores Lógicos</a></li>
-      <li><a href="exercise.php?dir=controle&file=desafio_operadores_logicos">Desafio Op. Lógicos</a></li>
-      <li><a href="exercise.php?dir=controle&file=operador_ternario">Operador Ternário</a></li>
-      <li><a href="exercise.php?dir=controle&file=switch">Switch</a></li>
-      <li><a href="exercise.php?dir=controle&file=desafio_switch">Desafio Switch</a></li>
+      <li><a href="exercise.php?dir=control&file=if_else">If Else</a></li>
+      <li><a href="exercise.php?dir=control&file=relacional_operators">Relational Operatorrs</a></li>
+      <li><a href="exercise.php?dir=control&file=pi_task">PI Task</a></li>
+      <li><a href="exercise.php?dir=control&file=logical_operators">Logical Operators</a></li>
+      <li><a href="exercise.php?dir=control&file=logical_operators_task">Logical Operators Task</a></li>
+      <li><a href="exercise.php?dir=control&file=ternary_operator">Ternary Operator</a></li>
+      <li><a href="exercise.php?dir=control&file=switch">Switch</a></li>
+      <li><a href="exercise.php?dir=control&file=switch_task">Switch Task</a></li>
     </ul>
   </div>
   <div class="modulo laranja">

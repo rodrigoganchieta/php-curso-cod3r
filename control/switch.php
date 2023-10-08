@@ -6,7 +6,7 @@ $categoria = 'aaaaaa';
 $preco = 0.0;
 $carro = '';
 
-if($categoria === 'Luxo') {
+if ($categoria === 'Lux') {
   $carro = 'Mercedes';
   $preco = 250000;
 } else if ($categoria === 'SUV') {
@@ -21,16 +21,16 @@ if($categoria === 'Luxo') {
 }
 
 $precoFormatado = number_format($preco, 2, ',', '.');
-echo "<p>Carro: $carro<br>Preço: R$ $precoFormatado</p>";
+echo "<p>Car: $carro<br>Price: $ $precoFormatado</p>";
 
-$categoria = 'LUXO';
+$categoria = 'Lux';
 switch (strtolower($categoria)) {
-  case 'luxo':
+  case 'lux':
     $carro = 'Mercedes';
     $preco = 250000;
     break;
   case 'suv':
-  case 'suv básico':
+  case 'suv basic':
     $carro = 'Renegade';
     $preco = 80000;
     break;
@@ -46,4 +46,4 @@ switch (strtolower($categoria)) {
 
 $precoFormatado = number_format($preco, 2, ',', '.');
 
-echo "<p>Carro: $carro<br>Preço: $precoFormatado</p>";
+echo "<p>Car: $carro<br>Price: $$precoFormatado</p>";
