@@ -1,16 +1,16 @@
-<div class="titulo">Operações</div>
+<div class="titulo">Operators</div>
 
 <?php
 $dados1 = [
-  "nome" => "Loiro Jose",
-  "idade" => 30
+  "name" => "John Lennon",
+  "age" => 30
 ];
 
 $dados2 = [
-  "naturalidade" => "Fortaleza"
+  "native_city" => "New York"
 ];
 
-$dados2["endereço"] = "Rua A";
+$dados2["address"] = "Stret A";
 
 $dadosCompletos = $dados1 + $dados2;
 print_r($dadosCompletos);
@@ -24,8 +24,8 @@ $indice = array_rand($dadosCompletos);
 
 echo "$indice = $dadosCompletos[$indice]";
 echo '<br>';
-echo "{$dadosCompletos['idade']}";
-echo " ${dadosCompletos['idade']}";
+echo "{$dadosCompletos['age']}";
+echo " ${dadosCompletos['age']}";
 
 unset($dadosCompletos["nome"]);
 echo '<br>';

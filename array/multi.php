@@ -1,34 +1,34 @@
-<div class="titulo">Multidimensionais</div>
+<div class="titulo">Multidimensional</div>
 
 <?php
 $dados = [
   [
-    "nome" => "Rodrigo",
-    "idade" => 32,
-    "naturalidade" => "Piracicaba"
+    "name" => "Rodrigo",
+    "age" => 32,
+    "native_city" => "Piracicaba"
   ],
   [
-    "nome" => "Maria",
-    "idade" => 6,
-    "naturalidade" => "São Paulo"
+    "name" => "Maria",
+    "age" => 6,
+    "native_city" => "São Paulo"
   ],
 ];
 
 print_r($dados);
-echo '<br>' . $dados[0]['idade'];
-echo '<br>' . $dados[1]['idade'];
+echo '<br>' . $dados[0]['age'];
+echo '<br>' . $dados[1]['age'];
 
 $dados[] = [
-  "nome" => "Mago",
-  "idade" => 5,
-  "naturalidade" => "São Paulo"
+  "name" => "Mago",
+  "age" => 5,
+  "native_city" => "São Paulo"
 ];
 
 echo '<br>';
 print_r($dados);
-echo '<br>' . $dados[2]['idade'];
+echo '<br>' . $dados[2]['age'];
 
-$dados[2]["vizinho"] = "Chaves";
+$dados[2]["neighbor"] = "Chaves";
 echo '<br>';
 print_r($dados[2]);
 

@@ -39,7 +39,7 @@
     <h3>4. Control</h3>
     <ul>
       <li><a href="exercise.php?dir=control&file=if_else">If Else</a></li>
-      <li><a href="exercise.php?dir=control&file=relacional_operators">Relational Operatorrs</a></li>
+      <li><a href="exercise.php?dir=control&file=relacional_operators">Relational Operators</a></li>
       <li><a href="exercise.php?dir=control&file=pi_task">PI Task</a></li>
       <li><a href="exercise.php?dir=control&file=logical_operators">Logical Operators</a></li>
       <li><a href="exercise.php?dir=control&file=logical_operators_task">Logical Operators Task</a></li>
@@ -51,17 +51,17 @@
   <div class="modulo laranja">
     <h3>5. Array</h3>
     <ul>
-      <li><a href="exercise.php?dir=array&file=basico">Array</a></li>
-      <li><a href="exercise.php?dir=array&file=mapa">Mapa</a></li>
-      <li><a href="exercise.php?dir=array&file=desafio_index">Desafio Index</a></li>
-      <li><a href="exercise.php?dir=array&file=desafio_meses">Desafio Meses</a></li>
-      <li><a href="exercise.php?dir=array&file=operacoes">Operações</a></li>
-      <li><a href="exercise.php?dir=array&file=desafio_sorteio">Desafio Sorteio</a></li>
-      <li><a href="exercise.php?dir=array&file=multi">Multidimensionais</a></li>
-      <li><a href="exercise.php?dir=array&file=constantes">Arrays Constantes</a></li>
-      <li><a href="exercise.php?dir=array&file=get">$_GET</a></li>
+      <li><a href="exercise.php?dir=array&file=basic">Array</a></li>
+      <li><a href="exercise.php?dir=array&file=map">Map</a></li>
+      <li><a href="exercise.php?dir=array&file=index_task">Index Task</a></li>
+      <li><a href="exercise.php?dir=array&file=months_task">Months Task</a></li>
+      <li><a href="exercise.php?dir=array&file=operators">Operators</a></li>
+      <li><a href="exercise.php?dir=array&file=prize_task">Prize Task</a></li>
+      <li><a href="exercise.php?dir=array&file=multi">Multidimensional</a></li>
+      <li><a href="exercise.php?dir=array&file=constant">Constant Arrays</a></li>
+      <li><a href="exercise.php?dir=array&file=get&name=Rodrigo">$_GET</a></li>
       <li><a href="exercise.php?dir=array&file=post">$_POST</a></li>
-      <li><a href="exercise.php?dir=array&file=comparacao">Comparação Arrays</a></li>
+      <li><a href="exercise.php?dir=array&file=comparison">Arrays Comparison</a></li>
     </ul>
   </div>
   <div class="modulo verde-escuro">

@@ -1,17 +1,17 @@
 <div class="titulo">$_POST</div>
 
 <form action="#" method="post">
-  <input type="text" name="nome">
-  <input type="text" name="sobrenome">
-  <select name="estado">
-    <option value="AC">Acre</option>
-    <option value="BA">Bahia</option>
+  <input type="text" name="name">
+  <input type="text" name="last_name">
+  <select name="state">
+    <option value="AL">Alabama</option>
+    <option value="NY">New York</option>
   </select>
-  <button>Enviar</button>
+  <button>Submit</button>
 </form>
 
 <style>
-  form > * {
+  form>* {
     font-size: 1.8rem;
   }
 </style>

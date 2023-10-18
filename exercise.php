@@ -48,15 +48,15 @@ if (!$_SESSION['usuario']) {
 <body class="exercicio">
   <header class="cabecalho">
     <h1>PHP 7 Complete - Web Developer Course + Projects</h1>
-    <h2>Visualização do Exercício</h2>
+    <h2>Exercise View</h2>
   </header>
   <nav class="navegacao">
     <span class="usuario">User:
       <?= $_SESSION['usuario'] ?>
     </span>
-    <a href=<?= "/{$_GET['dir']}/{$_GET['file']}.php" ?> class="verde">Sem formatação</a>
-    <a href="index.php">Voltar</a>
-    <a href="javascript:void(0)" onclick="sair();" class="vermelho">Sair</a>
+    <a href=<?= "/{$_GET['dir']}/{$_GET['file']}.php" ?> class="verde">No formatting</a>
+    <a href="index.php">Back</a>
+    <a href="javascript:void(0)" onclick="sair();" class="vermelho">Log out</a>
   </nav>
   <main class="principal">
     <div class="conteudo">

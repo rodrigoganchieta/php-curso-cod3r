@@ -1,26 +1,26 @@
-<div class="titulo">Mapa</div>
+<div class="titulo">Map</div>
 
 <?php
 $dados = array(
-  "idade" => 32,
-  "cor" => "Azul",
-  "peso" => 78.5
+  "age" => 32,
+  "color" => "Blue",
+  "weight" => 78.5
 );
 
 print_r($dados);
 
 var_dump($dados[0]);
 
-echo '<br>' . $dados["idade"];
-echo '<br>' . $dados["cor"];
-echo '<br>' . $dados["peso"];
+echo '<br>' . $dados["age"];
+echo '<br>' . $dados["color"];
+echo '<br>' . $dados["weight"];
 echo '<br>';
 
-var_dump($dados["outra_informacao"]);
+var_dump($dados["other_information"]);
 
 $lista = array(
   "a",
-  "cinco" => "b",
+  "five" => "b",
   "c",
   8 => "d",
   "e",
