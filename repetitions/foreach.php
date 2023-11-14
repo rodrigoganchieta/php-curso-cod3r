@@ -2,13 +2,13 @@
 
 <?php
 $array = [
-  1 => 'Domingo',
-  'Segunda',
-  'Terça',
-  'Quarta',
-  'Quinta',
-  'Sexta',
-  'Sábado'
+  1 => 'Sunday',
+  'Monday',
+  'Tuesday',
+  'Wednesday',
+  'Thursday',
+  'Friday',
+  'Saturday'
 ];
 
 foreach ($array as $valor) {
@@ -25,7 +25,7 @@ $matrix = [
 ];
 
 foreach ($matrix as $linha) {
-  foreach($linha as $letra) {
+  foreach ($linha as $letra) {
     echo "$letra ";
   }
   echo "<br>";

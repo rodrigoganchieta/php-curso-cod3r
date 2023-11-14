@@ -1,4 +1,4 @@
-<div class="titulo">Desafio Tabela #01</div>
+<div class="titulo">Table Task #01</div>
 
 <?php
 $matriz = [
@@ -8,8 +8,8 @@ $matriz = [
   ['16', '17', '18', '19', '20'],
 ];
 
-foreach($matriz as $linha) {
-  foreach($linha as $valor) {
+foreach ($matriz as $linha) {
+  foreach ($linha as $valor) {
     echo "$valor ";
   }
   echo "<br>";
@@ -17,42 +17,42 @@ foreach($matriz as $linha) {
 ?>
 
 <table>
-<?php
-  foreach($matriz as $linha) {
+  <?php
+  foreach ($matriz as $linha) {
     echo '<tr>';
-    foreach($linha as $valor) {
+    foreach ($linha as $valor) {
       echo "<td>$valor</td>";
     }
     echo '</tr>';
   }
-?>
+  ?>
 </table>
 
 <table>
-<?php
-  foreach($matriz as $index => $linha) {
+  <?php
+  foreach ($matriz as $index => $linha) {
     $style = $index % 2 === 0 ? 'background-color: lightblue;' : '';
     echo "<tr style='{$style}'>";
-    foreach($linha as $valor) {
+    foreach ($linha as $valor) {
       echo "<td>$valor</td>";
     }
     echo '</tr>';
   }
-?>
+  ?>
 </table>
 
 <style>
-table {
-  border: 1px solid #444;
-  border-collapse: collapse;
-  margin: 20px 0px;
-}
+  table {
+    border: 1px solid #444;
+    border-collapse: collapse;
+    margin: 20px 0px;
+  }
 
-table tr {
-  border: 1px solid #444;
-}
+  table tr {
+    border: 1px solid #444;
+  }
 
-table td {
-  padding: 10px 20px;
-}
+  table td {
+    padding: 10px 20px;
+  }
 </style>

@@ -68,13 +68,13 @@
     <h3>6. Repetitions</h3>
     <ul>
       <li><a href="exercise.php?dir=repetitions&file=for">For Loop</a></li>
-      <li><a href="exercise.php?dir=repetitions&file=desafio_for">For Task</a></li>
+      <li><a href="exercise.php?dir=repetitions&file=for_task">For Task</a></li>
       <li><a href="exercise.php?dir=repetitions&file=foreach">Foreach</a></li>
       <li><a href="exercise.php?dir=repetitions&file=break_continue">Break/Continue</a></li>
-      <li><a href="exercise.php?dir=repetitions&file=desafio_impressao">Print Task</a></li>
+      <li><a href="exercise.php?dir=repetitions&file=print_task">Print Task</a></li>
       <li><a href="exercise.php?dir=repetitions&file=while">While/Do While</a></li>
-      <li><a href="exercise.php?dir=repetitions&file=desafio_tabela">Table Task #01</a></li>
-      <li><a href="exercise.php?dir=repetitions&file=desafio_tabela_2">Table Task #02</a></li>
+      <li><a href="exercise.php?dir=repetitions&file=table_task_1">Table Task #01</a></li>
+      <li><a href="exercise.php?dir=repetitions&file=table_task_2">Table Task #02</a></li>
     </ul>
   </div>
   <div class="modulo vermelho-escuro">
